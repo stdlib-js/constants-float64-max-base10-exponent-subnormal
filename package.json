@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float64-max-base10-exponent-subnormal",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The maximum base 10 exponent for a subnormal double-precision floating-point number.",
   "license": "Apache-2.0",
   "author": {
