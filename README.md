@@ -89,12 +89,11 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
+#### Community
+
+[![Chat][chat-image]][chat-url]
+
 ---
-
-## License
-
-See [LICENSE][stdlib-license].
-
 
 ## Copyright
 
@@ -117,14 +116,15 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-float64-max-base10-exponent-subnormal/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-float64-max-base10-exponent-subnormal?branch=main
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/constants-float64-max-base10-exponent-subnormal
+[dependencies-image]: https://img.shields.io/david/stdlib-js/constants-float64-max-base10-exponent-subnormal.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/constants-float64-max-base10-exponent-subnormal/main
+
+[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
+[chat-url]: https://gitter.im/stdlib-js/stdlib/
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/main/LICENSE
 
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
 
