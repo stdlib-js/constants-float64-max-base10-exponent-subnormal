@@ -18,13 +18,29 @@ limitations under the License.
 
 -->
 
-# Maximum Subnormal Base 10 Exponent
+# FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > The maximum base 10 exponent for a subnormal [double-precision floating-point number][ieee754].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float64-max-base10-exponent-subnormal
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
@@ -33,7 +49,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base10-exponent-subnormal@esm/index.mjs';
+var FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL = require( '@stdlib/constants-float64-max-base10-exponent-subnormal' );
 ```
 
 #### FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL
@@ -61,25 +77,70 @@ var bool = ( FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL === -308 );
 
 <!-- eslint-disable id-length -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base10-exponent-subnormal@esm/index.mjs';
+```javascript
+var FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL = require( '@stdlib/constants-float64-max-base10-exponent-subnormal' );
 
 console.log( FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL );
 // => -308
-
-</script>
-</body>
-</html>
 ```
 
 </section>
 
 <!-- /.examples -->
+
+<!-- C interface documentation. -->
+
+* * *
+
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/constants/float64/max_base10_exponent.h"
+```
+
+#### STDLIB_CONSTANT_FLOAT64_MAX_BASE10_EXPONENT
+
+Macro for the maximum base 10 exponent for a subnormal [double-precision floating-point number][ieee754].
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -106,7 +167,7 @@ console.log( FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -115,6 +176,11 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
+
+## License
+
+See [LICENSE][stdlib-license].
+
 
 ## Copyright
 
@@ -159,15 +225,17 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/tree/esm
 [branches-url]: https://github.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/blob/main/branches.md
 
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/main/LICENSE
+
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float64/max-base10-exponent]: https://github.com/stdlib-js/constants-float64-max-base10-exponent/tree/esm
+[@stdlib/constants/float64/max-base10-exponent]: https://github.com/stdlib-js/constants-float64-max-base10-exponent
 
-[@stdlib/constants/float64/max-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-max-base2-exponent-subnormal/tree/esm
+[@stdlib/constants/float64/max-base2-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-max-base2-exponent-subnormal
 
-[@stdlib/constants/float64/min-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-min-base10-exponent-subnormal/tree/esm
+[@stdlib/constants/float64/min-base10-exponent-subnormal]: https://github.com/stdlib-js/constants-float64-min-base10-exponent-subnormal
 
 <!-- </related-links> -->
 
