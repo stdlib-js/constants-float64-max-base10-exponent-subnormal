@@ -18,7 +18,7 @@ limitations under the License.
 
 -->
 
-# Maximum Subnormal Base 10 Exponent
+# FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -88,6 +88,60 @@ console.log( FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL );
 
 <!-- /.examples -->
 
+<!-- C interface documentation. -->
+
+* * *
+
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/constants/float64/max_base10_exponent.h"
+```
+
+#### STDLIB_CONSTANT_FLOAT64_MAX_BASE10_EXPONENT
+
+Macro for the maximum base 10 exponent for a subnormal [double-precision floating-point number][ieee754].
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
+
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
@@ -122,6 +176,11 @@ For more information on the project, filing bug reports and feature requests, an
 [![Chat][chat-image]][chat-url]
 
 ---
+
+## License
+
+See [LICENSE][stdlib-license].
+
 
 ## Copyright
 
@@ -165,6 +224,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [umd-url]: https://github.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/tree/esm
 [branches-url]: https://github.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/main/LICENSE
 
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
 
