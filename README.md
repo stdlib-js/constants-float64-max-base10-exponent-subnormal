@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base10-exponent-subnormal@deno/mod.js';
+import FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base10-exponent-subnormal@v0.1.0-deno/mod.js';
 ```
 
 #### FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL
@@ -73,7 +73,7 @@ var bool = ( FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL === -308 );
 <!-- eslint-disable id-length -->
 
 ```javascript
-import FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base10-exponent-subnormal@deno/mod.js';
+import FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base10-exponent-subnormal@v0.1.0-deno/mod.js';
 
 console.log( FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL );
 // => -308
