@@ -124,10 +124,10 @@ console.log( FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL );
 ### Usage
 
 ```c
-#include "stdlib/constants/float64/max_base10_exponent.h"
+#include "stdlib/constants/float64/max_base10_exponent_subnormal.h"
 ```
 
-#### STDLIB_CONSTANT_FLOAT64_MAX_BASE10_EXPONENT
+#### STDLIB_CONSTANT_FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL
 
 Macro for the maximum base 10 exponent for a subnormal [double-precision floating-point number][ieee754].
 
@@ -190,6 +190,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
@@ -235,6 +240,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/tree/esm
 [esm-readme]: https://github.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/main/LICENSE
 
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
 
