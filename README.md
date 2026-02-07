@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base10-exponent-subnormal@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-max-base10-exponent-subnormal/tags). For example,
+
+```javascript
 import FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base10-exponent-subnormal@v0.2.1-esm/index.mjs';
 ```
 
@@ -78,7 +83,7 @@ var bool = ( FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL === -308 );
 <body>
 <script type="module">
 
-import FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base10-exponent-subnormal@v0.2.1-esm/index.mjs';
+import FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-base10-exponent-subnormal@esm/index.mjs';
 
 console.log( FLOAT64_MAX_BASE10_EXPONENT_SUBNORMAL );
 // => -308
